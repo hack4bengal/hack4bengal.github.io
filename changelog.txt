@@ -39,15 +39,26 @@ Version: 4.0.0
   - Restructured the dev version for better development experience
   - Updated the PHP Email Form to V3.0 - No jQuery dependency. Added attachment support
 
-Version: 3.0.0
-  - Initial release with Bootstrap v5.0 Beta 1
-
-Version: 2.2.0
-  - Updated Bootstrap to version 4.5.3
-  - Updated all outdated third party vendor libraries to their latest versions
+Version: 3.0.3
+  - Updated Bootstrap to version 5.0.0-beta1
   - Updated the PHP Email Form to v2.3
   - Other small fixes and improvements
+  
+Version: 3.0.2
+  - Updated Bootstrap to version 5.0.0-alpha3
+  - Updated all outdated third party vendor libraries to their latest versions
 
+Version: 3.0.1
+  - Update Bootstrap v5.0 to Alpha 2
+  - Updated all outdated third party vendor libraries to their latest versions
+  
+Version: 3.0.0
+  - Initial release with using the Bootstrap v5.0 (Alpha)
+  
+Version: 2.2.0
+  - Updated the PHP Email Form to v2.1
+  - Other small fixes and improvements
+  
 Version: 2.1.0
   - Updated Bootstrap to version 4.5.0
   - Updated the PHP Email Form library to version 2.0 with reCaptcha support
@@ -62,4 +73,4 @@ Version: 2.0.0
   - Added NodeJS NPM Development version (Pro unlimited & Membership members)
   
 Version: 1.0.0
-- Initial Release
+  - Initial Release

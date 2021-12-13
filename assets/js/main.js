@@ -1,6 +1,6 @@
 /**
-* Template Name: Techie - v4.7.0
-* Template URL: https://bootstrapmade.com/techie-free-skin-bootstrap-3/
+* Template Name: Vesperr - v4.7.0
+* Template URL: https://bootstrapmade.com/vesperr-free-bootstrap-template/
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
@@ -68,7 +68,7 @@
     let offset = header.offsetHeight
 
     if (!header.classList.contains('header-scrolled')) {
-      offset -= 16
+      offset -= 20
     }
 
     let elementPos = select(el).offsetTop
@@ -159,16 +159,6 @@
   });
 
   /**
-   * Preloader
-   */
-  let preloader = select('#preloader');
-  if (preloader) {
-    window.addEventListener('load', () => {
-      preloader.remove()
-    });
-  }
-
-  /**
    * Testimonials slider
    */
   new Swiper('.testimonials-slider', {
@@ -187,12 +177,12 @@
     breakpoints: {
       320: {
         slidesPerView: 1,
-        spaceBetween: 40
+        spaceBetween: 20
       },
 
       1200: {
-        slidesPerView: 3,
-        spaceBetween: 40
+        slidesPerView: 2,
+        spaceBetween: 20
       }
     }
   });
@@ -204,7 +194,8 @@
     let portfolioContainer = select('.portfolio-container');
     if (portfolioContainer) {
       let portfolioIsotope = new Isotope(portfolioContainer, {
-        itemSelector: '.portfolio-item'
+        itemSelector: '.portfolio-item',
+        layoutMode: 'fitRows'
       });
 
       let portfolioFilters = select('#portfolio-flters li', true);

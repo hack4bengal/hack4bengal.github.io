@@ -1,6 +1,6 @@
 Thanks for downloading this template!
 
-Template Name: Techie
-Template URL: https://bootstrapmade.com/techie-free-skin-bootstrap-3/
+Template Name: Vesperr
+Template URL: https://bootstrapmade.com/vesperr-free-bootstrap-template/
 Author: BootstrapMade.com
 License: https://bootstrapmade.com/license/
