@@ -671,6 +671,7 @@ section {
   background-position: center center;
 }
 .more-services .card-body {
+  margin-top: 400px !important;margin-bottom: 0 !important;
   z-index: 10;
   background: rgba(255, 255, 255, 0.9);
   padding: 15px 30px;
@@ -680,6 +681,7 @@ section {
   border-radius: 5px;
 }
 .more-services .card-title {
+  
   font-weight: 700;
   text-align: center;
   margin-bottom: 15px;
