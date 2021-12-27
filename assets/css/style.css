@@ -526,9 +526,9 @@ section {
   background-color: #e03a3c;
 }
 .clients .swiper-slide img {
-  opacity: 0.5;
+  /* opacity: 0.5; */
   transition: 0.3s;
-  filter: grayscale(100);
+  /* filter: grayscale(100); */
 }
 .clients .swiper-slide img:hover {
   opacity: 1;
