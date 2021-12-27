@@ -100,7 +100,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 .get-started-btn {
   margin-left: 30px;
-  background: #e03a3c;
+  /* background: #e03a3c; */
   color: #fff;
   border-radius: 4px;
   padding: 8px 25px;
@@ -350,17 +350,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .btn-join-discord {
-  font-family: "Raleway", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 10px 30px;
-  border-radius: 4px;
-  transition: 0.5s;
-  margin-top: 500px;
   margin-left: 30px;
+  /* background: #e03a3c; */
   color: #fff;
+  margin-top: 300px;
+  border-radius: 4px;
+  padding: 8px 25px;
+  white-space: nowrap;
+  transition: 0.3s;
+  font-size: 14px;
+  font-weight: 600;
+  display: inline-block;
   background: #738adb;
   border: 2px solid #738adb;
 }
