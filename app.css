@@ -1,0 +1,607 @@
+.navbar.scrolled {
+    background: #142959;
+    transition: background 500ms;
+}
+
+#logo-img {
+    width: 50px;
+    height: 50px;
+}
+
+#brand-name {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    color: white;
+    letter-spacing: 1px;
+}
+
+#brand-sub {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+#navbar-links {
+    margin-left: 20%;
+}
+
+#nav-items {
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    transition: all 0.2s;
+    font-size: 16px;
+    padding-top: 20px;
+}
+
+#nav-items:hover {
+    color: rgb(0, 119, 255);
+    text-decoration: underline;
+}
+
+
+/* #logo-img {
+    width: 50px;
+    height: 50px;
+}
+
+#navbar-links {
+    margin-left: 50%;
+}
+
+#brand-name {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    color: black;
+}
+
+#brand-sub {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+#toggle-icon {
+    border: none;
+}
+
+#nav {
+    background-color: transparent;
+}
+
+#nav-items {
+    color: rgb(0, 153, 255);
+    padding-left: 20px;
+    padding-right: 20px;
+    transition: all 0.2s;
+}
+
+#nav-items:hover {
+    color: rgb(0, 119, 255);
+    text-decoration: underline;
+}
+
+*/
+
+#myCarousel-inner {
+    /* margin-top: 5%; */
+    height: 90vh;
+}
+
+#svg {
+    background-color: rgb(30, 202, 30);
+}
+
+#carousel-btn {
+    border: 2px solid rgb(0, 153, 255);
+    background-color: #142959;
+    color: white;
+    border-radius: 34.5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+#carousel-btn:hover {
+    text-decoration: underline;
+    background-color: rgb(0, 153, 255);
+    box-shadow: 2px 1px 23px 8px rgba(10, 165, 255, 0.75);
+    -webkit-box-shadow: 2px 1px 23px 8px rgba(10, 165, 255, 0.75);
+    -moz-box-shadow: 2px 1px 23px 8px rgba(10, 165, 255, 0.75);
+}
+
+#main-content {
+    /* margin-top: -5%; */
+}
+
+#main-btn {
+    border: 2px solid rgb(0, 153, 255);
+    background-color: rgb(24, 31, 58);
+    color: white;
+    border-radius: 34.5px;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    text-decoration: none;
+    text-align: center;
+    transition: 0.3s;
+    cursor: pointer;
+    box-shadow: 2px 1px 23px 8px rgba(10, 165, 255, 0.75);
+    -webkit-box-shadow: 2px 1px 23px 8px rgba(10, 165, 255, 0.75);
+    -moz-box-shadow: 2px 1px 23px 8px rgba(10, 165, 255, 0.75);
+}
+
+#main-btn:hover {
+    text-decoration: underline;
+    background-color: rgb(0, 153, 255);
+}
+
+#main-head {
+    color: white;
+}
+
+#snu-btn {
+    border: 2px solid rgb(0, 195, 255);
+    /* background-color: rgb(0, 195, 255); */
+    color: rgb(0, 195, 255);
+    border-radius: 34.5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    text-decoration: none;
+    text-align: center;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+#snu-btn:hover {
+    border: 2px solid rgb(0, 195, 255);
+    background-color: rgb(0, 195, 255);
+    color: white;
+}
+
+#about-section {
+    padding-top: 5%;
+}
+
+#about {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+#about-1 {
+    background-color: #fff;
+    color: black;
+}
+
+#about-ul {
+    list-style-type: square;
+}
+
+#about-list {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+#snu-about {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+#about-details {
+    background: #142959;
+    transform: skewY( 356deg);
+}
+
+#about-details-in {
+    transform: skewY(364deg);
+}
+
+#main {
+    background-color: rgb(0, 0, 0);
+}
+
+#about-list-head {
+    font-weight: 700;
+    font-size: 32px;
+    font-weight: 300;
+}
+
+#about-list-desc {
+    font-weight: 300;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+#card-body {
+    transition: 0.5s;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#about-img {
+    width: 600px;
+    height: 600px;
+}
+
+@media screen and (max-width: 780px) {
+    #about-img {
+        width: 300px;
+        height: 300px;
+    }
+    #navbar-links {
+        margin-left: 5%;
+    }
+}
+
+
+/* 
+#card-body:hover {
+    border: 1px solid transparent;
+    background-color: rgb(188, 226, 224);
+    border-radius: 10px;
+} */
+
+#sponsor-head {
+    font-family: 'Pacifico', cursive;
+    font-size: 38px;
+}
+
+#team {
+    margin-top: 5%;
+    color: black;
+}
+
+#team-head {
+    font-family: 'Pacifico', cursive;
+    font-size: 38px;
+}
+
+#details-p {
+    margin-top: 20px;
+}
+
+#details-icon {
+    color: black;
+    font-size: 18px;
+    padding: 8px;
+    transition: 0.3s;
+}
+
+#details-icon:hover {
+    color: rgb(0, 118, 253);
+    font-size: 18px;
+    padding: 8px;
+    font-size: 24px;
+}
+
+#details-name {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#details-description {
+    font-size: 16px;
+    color: rgb(180, 175, 175);
+    font-family: 'Roboto', sans-serif;
+}
+
+#faq-q {
+    margin-left: 5%;
+    font-size: 24px;
+    color: rgb(31, 63, 104);
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+#faq-a {
+    margin-right: 5%;
+}
+
+#footer-details {
+    padding-top: 20px;
+}
+
+#footer-p {
+    padding-top: 12px;
+}
+
+#footer {
+    border-top: 1px solid rgb(218, 223, 223);
+}
+
+#footer-icon {
+    color: black;
+    font-size: 32px;
+    padding: 12px;
+    transition: 0.3s;
+}
+
+#footer-icon:hover {
+    color: rgb(0, 119, 255);
+}
+
+
+/* ================================================================= */
+
+
+/* GLOBAL STYLES
+-------------------------------------------------- */
+
+
+/* Padding below the footer and lighter body text */
+
+
+/* CUSTOMIZE THE CAROUSEL
+  -------------------------------------------------- */
+
+
+/* Carousel base class */
+
+
+/* .carousel {
+    margin-bottom: 1rem;
+} */
+
+
+/* Since positioning the image, we need to help out the caption */
+
+.carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+}
+
+
+/* Declare heights because of positioning of img element */
+
+.carousel-item {
+    height: 32rem;
+}
+
+.carousel-item>img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 32rem;
+}
+
+
+/* MARKETING CONTENT
+  -------------------------------------------------- */
+
+
+/* Center align the text within the three columns below the carousel */
+
+.marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.marketing h2 {
+    font-weight: 400;
+}
+
+
+/* rtl:begin:ignore */
+
+.marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+}
+
+
+/* rtl:end:ignore */
+
+
+/* Featurettes
+  ------------------------- */
+
+.featurette-divider {
+    margin: 5rem 0;
+    /* Space out the Bootstrap <hr> more */
+}
+
+
+/* Thin out the marketing headings */
+
+.featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    /* rtl:remove */
+    letter-spacing: -.05rem;
+}
+
+
+/* RESPONSIVE CSS
+  -------------------------------------------------- */
+
+@media (min-width: 40em) {
+    /* Bump up size of carousel content */
+    .carousel-caption p {
+        margin-bottom: 1.25rem;
+        font-size: 1.25rem;
+        line-height: 1.4;
+    }
+    .featurette-heading {
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 62em) {
+    .featurette-heading {
+        margin-top: 7rem;
+    }
+}
+
+
+/* ================================================================= */
+
+.b-example-divider {
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+.bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+}
+
+.feature-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 4rem;
+    height: 4rem;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    color: #fff;
+    border-radius: .75rem;
+}
+
+.icon-link {
+    display: inline-flex;
+    align-items: center;
+}
+
+.icon-link>.bi {
+    margin-top: .125rem;
+    margin-left: .125rem;
+    transition: transform .25s ease-in-out;
+    fill: currentColor;
+}
+
+.icon-link:hover>.bi {
+    transform: translate(.25rem);
+}
+
+.icon-square {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 3rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    border-radius: .75rem;
+}
+
+.rounded-4 {
+    border-radius: .5rem;
+}
+
+.rounded-5 {
+    border-radius: 1rem;
+}
+
+.text-shadow-1 {
+    text-shadow: 0 .125rem .25rem rgba(0, 0, 0, .25);
+}
+
+.text-shadow-2 {
+    text-shadow: 0 .25rem .5rem rgba(0, 0, 0, .25);
+}
+
+.text-shadow-3 {
+    text-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .25);
+}
+
+.card-cover {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+
+/* ================================================================= */
+
+
+/* List group about */
+
+.b-example-divider {
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+.bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+}
+
+.opacity-50 {
+    opacity: .5;
+}
+
+.opacity-75 {
+    opacity: .75;
+}
+
+.list-group {
+    width: auto;
+    max-width: 460px;
+    margin: 4rem auto;
+}
+
+.form-check-input:checked+.form-checked-content {
+    opacity: .5;
+}
+
+.form-check-input-placeholder {
+    pointer-events: none;
+    border-style: dashed;
+}
+
+[contenteditable]:focus {
+    outline: 0;
+}
+
+.list-group-checkable {
+    display: grid;
+    gap: .5rem;
+    border: 0;
+}
+
+.list-group-checkable .list-group-item {
+    cursor: pointer;
+    border-radius: .5rem;
+}
+
+.list-group-item-check {
+    position: absolute;
+    clip: rect(0, 0, 0, 0);
+    pointer-events: none;
+}
+
+.list-group-item-check:hover+.list-group-item {
+    background-color: var(--bs-light);
+}
+
+.list-group-item-check:checked+.list-group-item {
+    color: #fff;
+    background-color: var(--bs-blue);
+}
+
+.list-group-item-check[disabled]+.list-group-item,
+.list-group-item-check:disabled+.list-group-item {
+    pointer-events: none;
+    filter: none;
+    opacity: .5;
+}
+
+
+/* ================================================================= */
