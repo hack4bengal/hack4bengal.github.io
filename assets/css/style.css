@@ -343,15 +343,38 @@ h1, h2, h3, h4, h5, h6 {
   padding: 10px 30px;
   border-radius: 4px;
   transition: 0.5s;
-  margin-top: 30px;
+  margin-top: 500px;
   color: #fff;
-  background: #e03a3c;
-  border: 2px solid #e03a3c;
+  /* background: #e03a3c;
+  border: 2px solid #e03a3c; */
+}
+
+#hero .btn-join-discord {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 4px;
+  transition: 0.5s;
+  margin-top: 500px;
+  margin-left: 30px;
+  color: #fff;
+  background: #738adb;
+  border: 2px solid #738adb;
 }
 #hero .btn-get-started:hover {
   background: transparent;
   border-color: #fff;
 }
+
+#hero .btn-join-discord:hover {
+  background: transparent;
+  border-color: #fff;
+}
+
+
 @media (max-width: 768px) {
   #hero {
     text-align: center;
@@ -373,6 +396,10 @@ h1, h2, h3, h4, h5, h6 {
   #hero h2 {
     font-size: 18px;
     line-height: 24px;
+  }
+  #hero .btn-join-discord {
+    margin-top: 30px;
+    margin-left: 0px;
   }
 }
 @media (max-height: 500px) {
