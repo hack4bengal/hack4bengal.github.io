@@ -319,7 +319,7 @@ h1, h2, h3, h4, h5, h6 {
   background: rgba(0, 0, 0, 0.6);
   /* position: absolute; */
   bottom: 0;
-  top: 200px;
+  top: 0;
   left: 0;
   right: 0;
 }
@@ -343,7 +343,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 10px 30px;
   border-radius: 4px;
   transition: 0.5s;
-  margin-top: 500px;
+  margin-top: 800px;
   color: #fff;
   /* background: #e03a3c;
   border: 2px solid #e03a3c; */
