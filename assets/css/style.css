@@ -355,17 +355,23 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   margin-top: 300px;
   border-radius: 4px;
- height: 60px;
- width: 312px;
+  height: 44px;
+  width: 312px;
   white-space: nowrap;
   transition: 0.3s;
   font-size: 16px;
   font-weight: 600;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
   display: inline-block;
   background: #738adb;
-  border: 2px solid #738adb;
+  /* border: 2px solid #738adb; */
 }
+
+#hero .discord{
+  text-align: left;
+  color: white;
+}
+
 #hero .btn-get-started:hover {
   background: transparent;
   border-color: #fff;
