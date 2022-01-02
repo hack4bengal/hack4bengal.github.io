@@ -1171,12 +1171,14 @@ section {
   margin-bottom: 5px;
   font-size: 18px;
   color: #111111;
+  text-align: center;
 }
 .team .member .member-info span {
   display: block;
   font-size: 13px;
   font-weight: 400;
-  color: #aaaaaa;
+  color: red;
+  text-align: center;
 }
 .team .member .member-info p {
   font-style: italic;
