@@ -384,6 +384,10 @@ h1, h2, h3, h4, h5, h6 {
 
 
 @media (max-width: 768px) {
+
+  #counterTimer {
+    font-size: 30px;
+  }
   #hero {
     text-align: center;
     padding-top: 58px;
@@ -411,6 +415,9 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 @media (max-height: 500px) {
+  #counterTimer {
+    font-size: 30px;
+  }
   #hero {
     height: 120vh;
     background: url("../img/picmob.png") top center no-repeat;
