@@ -1004,6 +1004,9 @@ section {
 /*--------------------------------------------------------------
 # Pricing
 --------------------------------------------------------------*/
+.pricing {
+  color: black !important;
+}
 .pricing .box {
   padding: 20px;
   background: #2b2b2b;
@@ -1061,7 +1064,7 @@ section {
   display: inline-block;
   padding: 10px 40px 12px 40px;
   border-radius: 4px;
-  color: #fff;
+  color: black;
   transition: none;
   font-size: 14px;
   font-weight: 400;
@@ -1071,12 +1074,19 @@ section {
   border: 2px solid rgba(255, 255, 255, 0.3);
 }
 .pricing .box .btn-buy:hover {
-  border-color: #fff;
+  border-color: black;
 }
 .pricing .featured {
-  background: #e03a3c;
+  background: gold;
 }
 
+.pricing .box-first {
+  background: #C0C0C0;
+}
+
+.pricing .box-third {
+  background: #CD7F32;
+}
 /*--------------------------------------------------------------
 # Frequently Asked Questions
 --------------------------------------------------------------*/
