@@ -373,12 +373,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .btn-get-started:hover {
-  background: transparent;
+  background: #455db6;
   border-color: #fff;
 }
 
 #hero .btn-join-discord:hover {
-  background: transparent;
+  background: #455db6;
   border-color: #fff;
 }
 
