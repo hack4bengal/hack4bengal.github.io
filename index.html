@@ -112,40 +112,252 @@
   <!-- STICKY BUTTON ENDS -->
 
   <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex align-items-center">
-
-    <div class="container" data-aos="zoom-out" data-aos-delay="100">
+  <section id="hero1" class="d-flex align-items-center">
+    <div class="container position-relative text-center text-lg-start" data-aos="zoom-in" data-aos-delay="100">
       <div class="row">
-        <div class="col-xl-6">
-          <h1> </h1>
-          <h2> </h2>
-          <!-- <a class="get-started-btn scrollto" href="">
-            <div class="apply-button" data-hackathon-slug="hack4bengal" data-button-theme="light"
-              style="height: 44px; width: 312px" ></div>
+        <div class="col-lg-8">
+          <h1>Welcome to <span>Hack4Bengal</span></h1>
+          <h2>Upthrill downhill of 48 hours from 8th April!</h2>
 
-          </a> -->
-          <!-- <a href="#about" class="get-started-btn scrollto" data-hackathon-slug="hack4bengal" data-button-theme="light"
-            style="height: 44px; width: 312px;"></a> -->
-
-          <!-- <a href="#about" class="btn-join-discord scrollto" data-hackathon-slug="hack4bengal" data-button-theme="light"
-            style="height: 44px; width: 312px;">&nbsp;</a> -->
-          <div class="btn-join-discord scrollto py-2 col-lg-6 col-md-12 col-sm-12">
-            <a href="https://discord.gg/HaRVXjm5FP" target="_blank"
-              style="height: 44px;width: 312px; max-width: 312px; text-align: center;"
-              class="btn-lg register-btn discord"><i class='bi bi-discord' style="font-style: normal;">&nbsp Join
-                Discord Server</i></a>
+          <div class="btns">
+            <a href="#menu" class="btn-menu animated fadeInUp scrollto"
+              style="height: 44px; width:312px; text-align:center; border-radius: 8px; line-height: 1; position: absolute; margin-left: 340px;">Join
+              Our Discord Server</a>
+            <style>
+              @media screen and (max-width: 992px) {
+                .btn-menu {
+                  margin-left: 0px !important;
+                  margin-top: 60px;
+                }
+              }
+            </style>
+            <!-- <a class="btn-book animated fadeInUp scrollto"
+                style="padding: 2px; color: #3770ff; background-color: #3770ff; border: #3770ff">
+                <a class="btn-book animated fadeInUp scrollto apply-button" data-hackathon-slug="hack4bengal"
+                  data-button-theme="light" style="height: 44px; width: 312px;"></a>
+              </a> -->
+            <a class="btn-book animated fadeInUp scrollto apply-button" data-hackathon-slug=" hack4bengal"
+              data-button-theme="light"
+              style="height: 44px; width: 340px; margin-left: 170px; position:absolute; color: #3770ff; background-color: #3770ff; border: #3770ff">
+            </a>
           </div>
-          <div class="py-2 col-lg-6 col-md-12 col-sm-12">
-            <div class="apply-button" data-hackathon-slug="uplift" data-button-theme="light"
-              style="height: 44px; width: 312px"></div>
-          </div>
-
         </div>
+        <div class="col-lg-4 d-flex align-items-center justify-content-center position-relative" data-aos="zoom-in"
+          data-aos-delay="200" style="margin-top: 50px">
+          <a href="https://www.youtube.com/watch?v=mZzlMfMuIAI" class="glightbox play-btn"></a>
+        </div>
+
       </div>
     </div>
-    </div>
-    l̥
-  </section><!-- End Hero -->
+  </section>
+  <style>
+    #hero1 {
+      width: 100%;
+      height: 100vh;
+      background: url("/assets/img/pic.jpg") top center;
+      background-size: cover;
+      position: relative;
+      padding: 0;
+    }
+
+    #hero1:before {
+      content: "";
+      background: rgba(0, 0, 0, 0.5);
+      position: absolute;
+      bottom: 0;
+      top: 0;
+      left: 0;
+      right: 0;
+    }
+
+    #hero1 .container {
+      padding-top: 110px;
+    }
+
+    @media (max-width: 992px) {
+      #hero1 .container {
+        padding-top: 98px;
+      }
+    }
+
+    #hero1 h1 {
+      margin: 0;
+      font-size: 48px;
+      font-weight: 700;
+      line-height: 56px;
+      color: #fff;
+      font-family: "Poppins", sans-serif;
+    }
+
+    #hero1 h1 span {
+      color: #e03a3c;
+    }
+
+    #hero1 h2 {
+      color: #eee;
+      margin-bottom: 10px 0 0 0;
+      font-size: 22px;
+    }
+
+    #hero1 .btns {
+      margin-top: 30px;
+    }
+
+    #hero1 .btn-menu,
+    #hero1 .btn-book {
+      font-weight: 600;
+      font-size: 13px;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+      display: inline-block;
+      padding: 12px 30px;
+      border-radius: 50px;
+      transition: 0.3s;
+      line-height: 1;
+      color: white;
+      border: 2px solid #e03a3c;
+    }
+
+    #hero1 .btn-menu:hover,
+    #hero1 .btn-book:hover {
+      background: #e03a3c;
+      color: #fff;
+    }
+
+    #hero1 .btn-book {
+      margin-left: 15px;
+    }
+
+    #hero1 .play-btn {
+      width: 94px;
+      height: 94px;
+      background: radial-gradient(#e03a3c 50%, rgba(205, 164, 94, 0.4) 52%);
+      border-radius: 50%;
+      display: block;
+      position: relative;
+      overflow: hidden;
+    }
+
+    #hero1 .play-btn::after {
+      content: "";
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translateX(-40%) translateY(-50%);
+      width: 0;
+      height: 0;
+      border-top: 10px solid transparent;
+      border-bottom: 10px solid transparent;
+      border-left: 15px solid #fff;
+      z-index: 100;
+      transition: all 400ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    }
+
+    #hero1 .play-btn::before {
+      content: "";
+      position: absolute;
+      width: 120px;
+      height: 120px;
+      -webkit-animation-delay: 0s;
+      animation-delay: 0s;
+      -webkit-animation: pulsate-btn 2s;
+      animation: pulsate-btn 2s;
+      -webkit-animation-direction: forwards;
+      animation-direction: forwards;
+      -webkit-animation-iteration-count: infinite;
+      animation-iteration-count: infinite;
+      -webkit-animation-timing-function: steps;
+      animation-timing-function: steps;
+      opacity: 1;
+      border-radius: 50%;
+      border: 5px solid rgba(205, 164, 94, 0.7);
+      top: -15%;
+      left: -15%;
+      background: rgba(198, 16, 0, 0);
+    }
+
+    #hero1 .play-btn:hover::after {
+      border-left: 15px solid #e03a3c;
+      transform: scale(20);
+    }
+
+    #hero1 .play-btn:hover::before {
+      content: "";
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translateX(-40%) translateY(-50%);
+      width: 0;
+      height: 0;
+      border: none;
+      border-top: 10px solid transparent;
+      border-bottom: 10px solid transparent;
+      border-left: 15px solid #fff;
+      z-index: 200;
+      -webkit-animation: none;
+      animation: none;
+      border-radius: 0;
+    }
+
+    @media (min-width: 1024px) {
+      #hero1 {
+        background-attachment: fixed;
+      }
+    }
+
+    @media (max-width: 992px) {
+      #hero1 .play-btn {
+        margin-top: 30px;
+      }
+    }
+
+    @media (max-height: 500px) {
+      #hero1 {
+        height: auto;
+      }
+
+      #hero1 .container {
+        padding-top: 130px;
+        padding-bottom: 60px;
+      }
+    }
+
+    @media (max-width: 768px) {
+      #hero1 h1 {
+        font-size: 28px;
+        line-height: 36px;
+      }
+
+      #hero1 h2 {
+        font-size: 18px;
+        line-height: 24px;
+      }
+    }
+
+    @-webkit-keyframes pulsate-btn {
+      0% {
+        transform: scale(0.6, 0.6);
+        opacity: 1;
+      }
+
+      100% {
+        transform: scale(1, 1);
+        opacity: 0;
+      }
+    }
+
+    @keyframes pulsate-btn {
+      0% {
+        transform: scale(0.6, 0.6);
+        opacity: 1;
+      }
+
+      100% {
+        transform: scale(1, 1);
+        opacity: 0;
+      }
+    }
+  </style><!-- End hero1 -->
 
   <main id="main">
     <!-- ======= Portfolio Section ======= -->
@@ -1033,14 +1245,15 @@
           </div>
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/interviewcake.png" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/interview-cake.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Interview Cake</h4>
                 <p>Interview Cake</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/interviewcake.png" data-gallery="portfolioGallery" class="portfolio-lightbox"
-                    title="Interview Cake"><i class="bx bx-plus"></i></a>
-                  <a href="https://www.interviewcake.com/" target="_blank" title="More Details"><i class="bx bx-link"></i></a>
+                  <a href="assets/img/portfolio/interviewcake.png" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="Interview Cake"><i class="bx bx-plus"></i></a>
+                  <a href="https://www.interviewcake.com/" target="_blank" title="More Details"><i
+                      class="bx bx-link"></i></a>
                 </div>
               </div>
             </div>
@@ -1406,19 +1619,87 @@
                   src="assets/img/clients/skepsis.jpg" class="img-fluid" alt=""></a></div>
             <div class="swiper-slide"><a href="https://www.instagram.com/codechefmrec/" target="_blank"><img
                   src="assets/img/clients/ccmrec.png" class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a href="https://www.linkedin.com/company/geeksforgeeks-prmitr" target="_blank"><img
-              src="assets/img/clients/gfgprmitr.png" class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a href="https://gdsc.community.dev/indore-institute-of-science-technology-indore/" target="_blank"><img
-              src="assets/img/clients/gdsciist.png" class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a href="https://gdsc.community.dev/chandigarh-university-chandigarh/" target="_blank"><img
-              src="assets/img/clients/gdsccu.png" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a href="https://www.linkedin.com/company/geeksforgeeks-prmitr"
+                target="_blank"><img src="assets/img/clients/gfgprmitr.png" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a
+                href="https://gdsc.community.dev/indore-institute-of-science-technology-indore/" target="_blank"><img
+                  src="assets/img/clients/gdsciist.png" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a href="https://gdsc.community.dev/chandigarh-university-chandigarh/"
+                target="_blank"><img src="assets/img/clients/gdsccu.png" class="img-fluid" alt=""></a></div>
           </div>
           <div class="swiper-pagination"></div>
         </div>
 
       </div>
+    </section>
+    <!-- End Clients Section -->
+
+    <section id="clients" class="clients">
+      <div class="container" data-aos="zoom-in">
+        <div class="section-title">
+          <h2>Community Partners</h2>
+          <p>Shoutout to all out Community partner for helping us managing the event and providing the participants
+            with
+            the best possible experience</p>
+        </div>
+        <div class="row justify-content-center">
+
+          <div class="col-lg-2 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="100">
+              <div class="member-img">
+                <a href=""><img src="assets/img/team/kiran.png" class="img-fluid" alt=""></a>
+
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="100">
+              <div class="member-img">
+                <a href=""><img src="assets/img/team/kiran.png" class="img-fluid" alt=""></a>
+
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="100">
+              <div class="member-img">
+                <a href=""><img src="assets/img/team/kiran.png" class="img-fluid" alt=""></a>
+
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="100">
+              <div class="member-img">
+                <a href=""><img src="assets/img/team/kiran.png" class="img-fluid" alt=""></a>
+
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="100">
+              <div class="member-img">
+                <a href=""><img src="assets/img/team/kiran.png" class="img-fluid" alt=""></a>
+              </div>
+
+            </div>
+          </div>
+
+
+        </div>
+
+      </div>
     </section><!-- End Clients Section -->
 
+    <!-- End Clients Section -->
     <!-- ======= Contact Section =======
     <section id="contact" class="contact">
         <div class="container" data-aos="fade-up">
