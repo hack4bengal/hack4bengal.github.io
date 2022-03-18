@@ -379,7 +379,7 @@ h6 {
   font-size: 16px;
   font-weight: 600;
   display: inline-block;
-  background: #e73427;
+  background: #810202;
   text-align: center;
   /* border: 2px solid #738adb; */
 }
@@ -395,7 +395,7 @@ h6 {
 }
 
 #hero .btn-join-discord:hover {
-  background: #f11000;
+  background: #1b17fa;
   border-color: #fff;
 }
 
