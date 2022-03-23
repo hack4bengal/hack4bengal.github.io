@@ -2,9 +2,7 @@
 
 **Hackathon Website:** [https://hack4bengal.tech/](https://hack4bengal.tech/)
 
-[![Twitter](https://img.shields.io/twitter/url/https/twitter.com/ShardingSphere.svg?style=social&label=Follow%20%40ShardingSphere)](https://twitter.com/hack4bengal)
-[![Discord](https://img.shields.io/badge/%20Discord-ShardingSphere%20Channel-blueviolet)](https://discord.gg/tw7yDYqYrW)
-![Discord Shield](https://discordapp.com/api/guilds/920970750154899476/widget.png?style=shield)
+
 
 
 ![Contributor over time](https://contributor-overtime-api.apiseven.com/contributors-svg?chart=contributorOverTime&repo=hack4bengal/hack4bengal.github.io)
