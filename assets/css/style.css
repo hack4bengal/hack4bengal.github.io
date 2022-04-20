@@ -410,7 +410,7 @@ h6 {
   #hero {
     text-align: center;
     padding-top: 95%;
-    background: url("../img/picmob.gif") top center no-repeat;
+    background: url("../img/picmob.png") top center no-repeat;
   }
   #hero:before {
     content: "";
