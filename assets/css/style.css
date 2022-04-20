@@ -394,12 +394,12 @@ h6 {
 }
 
 #hero .btn-get-started:hover {
-  background: #455db6;
+  background: #1b17fa;
   border-color: #fff;
 }
 
 #hero .btn-join-discord:hover {
-  background: #1b17fa;
+  background: #455db6;
   border-color: #fff;
 }
 
