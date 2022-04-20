@@ -360,8 +360,12 @@ h6 {
   padding: 10px 30px;
   border-radius: 4px;
   transition: 0.5s;
-  margin-top: 100px;
+  margin-top: 30px;
+  height: 44px;
+  width: 312px;
   color: #fff;
+  background: #810202;
+  white-space: nowrap;
   /* background: #e03a3c;
   border: 2px solid #e03a3c; */
 }
