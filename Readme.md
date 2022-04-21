@@ -1,4 +1,4 @@
-## [Hack4Bengal: A MLH Official 2022 Season Hackathon](https://hack4bengal.tech/)
+## [Hack4Bengal: An MLH Official 2022 Season Hackathon](https://hack4bengal.tech/)
 
 **Hackathon Website:** [https://hack4bengal.tech/](https://hack4bengal.tech/)
 
