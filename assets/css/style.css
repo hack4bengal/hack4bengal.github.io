@@ -2081,6 +2081,9 @@ section {
   overflow: hidden;
   margin-bottom: 30px;
 }
+#speakers .speaker:hover{
+  box-shadow: 6px 6px 10px rgb(255, 45, 45);
+}
 #speakers .speaker .details {
   background: rgba(6, 12, 34, 0.76);
   position: absolute;
