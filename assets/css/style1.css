@@ -2078,7 +2078,8 @@ section {
   margin-bottom: 30px;
 }
 #speakers .speaker:hover{
-  box-shadow: 4px 4px 10px rgb(12, 12, 12);
+  background-color: transparent;
+  box-shadow: 6px 6px 10px rgb(255, 45, 45);
 }
 #speakers .speaker .details {
   background: rgba(6, 12, 34, 0.76);
