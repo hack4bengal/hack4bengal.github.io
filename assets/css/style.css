@@ -142,8 +142,16 @@ h6 {
   list-style: none;
   align-items: center;
 }
+.navbar ul .nav-link{
+  font-weight: bold;
+}
 .navbar li {
-  position: relative;
+  position: relative;  
+}
+@media screen and (min-width:990px){
+  .navbar li{
+    right:50px;
+  }
 }
 .navbar a,
 .navbar a:focus {
@@ -287,6 +295,7 @@ h6 {
 .navbar-mobile li:hover > a {
   color: #e03a3c;
 }
+
 .navbar-mobile .getstarted,
 .navbar-mobile .getstarted:focus {
   margin: 15px;

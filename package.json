@@ -1,0 +1,20 @@
+{
+  "name": "hack4bengal.github.io",
+  "version": "1.0.0",
+  "description": "This is official repository for hack4bengal website.\r Guidelines for contributing:-\r You can check contributing.md file for knowing about how to setup this repository in your local machine.\r raise quality issues and generate pull requests for them respectively in order to contribute efficiently.\r Your single contribution values for us.\r Thank You for visiting.\r Check the stats for this website below:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mohit-Aasirwal/hack4bengal.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mohit-Aasirwal/hack4bengal.github.io/issues"
+  },
+  "homepage": "https://github.com/Mohit-Aasirwal/hack4bengal.github.io#readme"
+}
