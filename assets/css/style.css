@@ -388,6 +388,26 @@ h6 {
   /* border: 2px solid #738adb; */
 }
 
+@media (min-width : 1200px) and (max-width : 1600px){
+  .fix{
+    display: flex;
+    margin-left: 15%;
+    margin-top: 4rem;
+  }
+  .fixx{
+    margin-left: 4rem;
+  }
+}
+@media (min-width : 1000px) and (max-width : 1200px){
+  .fix{
+    margin-left: 2vw;
+  }
+  .fixx{
+    margin-left: 2rem;
+  }
+}
+
+
 #hero .discord {
   text-align: left;
   color: white;
@@ -431,6 +451,19 @@ h6 {
   #hero .btn-join-discord {
     margin-top: 30px;
     margin-left: 0px;
+  }
+}
+@media (min-width : 700px) and (max-width : 900px){
+
+  .fix{
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 2rem;
+    margin-left: 15rem;
+    overflow-x: hidden;
+  }
+  .fixx{
+    margin-bottom: -18rem;
   }
 }
 @media (max-height: 500px) {
