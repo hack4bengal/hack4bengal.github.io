@@ -632,6 +632,12 @@ section {
   align-items: center;
   border: 2px solid #e03a3c;
 }
+
+@media screen and (max-width: 430px) {
+  .about .content .about-btn {
+    margin-top: 10px;
+  }
+}
 .about .content .about-btn i {
   font-size: 16px;
   padding-left: 5px;
