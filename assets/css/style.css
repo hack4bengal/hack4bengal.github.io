@@ -388,25 +388,24 @@ h6 {
   /* border: 2px solid #738adb; */
 }
 
-@media (min-width : 1200px) and (max-width : 1600px){
-  .fix{
+@media (min-width: 1200px) and (max-width: 1600px) {
+  .fix {
     display: flex;
     margin-left: 15%;
     margin-top: 4rem;
   }
-  .fixx{
+  .fixx {
     margin-left: 4rem;
   }
 }
-@media (min-width : 1000px) and (max-width : 1200px){
-  .fix{
+@media (min-width: 1000px) and (max-width: 1200px) {
+  .fix {
     margin-left: 2vw;
   }
-  .fixx{
+  .fixx {
     margin-left: 2rem;
   }
 }
-
 
 #hero .discord {
   text-align: left;
@@ -453,16 +452,15 @@ h6 {
     margin-left: 0px;
   }
 }
-@media (min-width : 700px) and (max-width : 900px){
-
-  .fix{
+@media (min-width: 700px) and (max-width: 900px) {
+  .fix {
     display: flex;
     flex-direction: column-reverse;
     margin-top: 2rem;
     margin-left: 15rem;
     overflow-x: hidden;
   }
-  .fixx{
+  .fixx {
     margin-bottom: -18rem;
   }
 }
@@ -1052,6 +1050,14 @@ section {
 .testimonials .testimonial-item p {
   font-style: italic;
   margin: 30px auto 15px auto;
+}
+.testimonials .swiper-button-prev {
+  margin: 10px;
+  left: -4%;
+}
+.testimonials .swiper-button-next {
+  margin: 10px;
+  right: -4%;
 }
 .testimonials .swiper-pagination {
   margin-top: 20px;
