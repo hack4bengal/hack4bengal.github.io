@@ -2209,7 +2209,7 @@ section {
 }
 ::-webkit-scrollbar-thumb {
   border-radius: 5px;
-  background: red;
+  background: #FF1717;
 }
 ::-webkit-scrollbar-thumb:hover {
   background: #b30000;
