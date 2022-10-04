@@ -2198,6 +2198,7 @@ section {
   margin-bottom: 10px;
 }
 
+
 /* change css of scroll bar */
 
 ::-webkit-scrollbar {
@@ -2213,3 +2214,11 @@ section {
 ::-webkit-scrollbar-thumb:hover {
   background: #b30000;
 }
+
+.mlh {
+  margin-right: 7%;
+}
+.mlh-button {
+  margin-right: 35px;
+}
+
