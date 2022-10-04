@@ -2197,3 +2197,10 @@ section {
   font-size: 15px;
   margin-bottom: 10px;
 }
+
+.mlh {
+  margin-right: 7%;
+}
+.mlh-button {
+  margin-right: 80px;
+}
