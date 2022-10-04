@@ -2204,3 +2204,19 @@ section {
 .mlh-button {
   margin-right: 80px;
 }
+
+/* change css of scroll bar */
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #d7d7d7;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background: red;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #b30000;
+}
