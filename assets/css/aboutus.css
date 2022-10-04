@@ -1,0 +1,71 @@
+.about {
+  color: white;
+}
+
+.about .content p {
+  padding: 0 20%;
+}
+.typewriter h3 {
+  overflow: hidden;
+  border-right: 0.15em solid red !important;
+  white-space: nowrap;
+  margin: 0 auto;
+
+  animation: animated-text 2s linear 1s 1 normal both,
+    animated-cursor 600ms linear infinite;
+}
+
+@media screen and (max-width: 430px) {
+  .typewriter h3 {
+    overflow: auto;
+    animation: none;
+  }
+
+  .about .content p {
+    padding: 0;
+  }
+}
+/* text animation */
+@keyframes animated-text {
+  from {
+    width: 0;
+  }
+  to {
+    width: 456px;
+  }
+}
+/* cursor animations */
+@keyframes animated-cursor {
+  from {
+    border-right-color: rgba(255, 255, 255, 0.75);
+  }
+  to {
+    border-right-color: transparent;
+  }
+}
+
+.tasks .icon-boxes .icon-box {
+  margin-top: 30px;
+}
+.tasks .icon-boxes .icon-box i {
+  font-size: 40px;
+  color: #e03a3c;
+  margin-bottom: 10px;
+}
+.tasks .icon-boxes .icon-box h4 {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0 0 10px 0;
+}
+.tasks .icon-boxes .icon-box p {
+  font-size: 15px;
+  color: #848484;
+}
+
+.vision-content {
+  padding: 5px 20%;
+}
+
+#team {
+  color: white;
+}
