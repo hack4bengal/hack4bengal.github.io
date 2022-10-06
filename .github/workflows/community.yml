@@ -19,6 +19,6 @@ jobs:
       - uses: EddieHubCommunity/gh-action-community/src/welcome@main
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          issue-message: "Hey @${{ github.actor }}, Thanks for contributing to Novu and Congrats on opening Issue :tada:"
-          pr-message: "Hey @${{ github.actor }}, Thanks for contributing to Novu and Congrats on opening PR :tada:."
+          issue-message: "Hey @${{ github.actor }}, Thanks for contributing to Hack4Bengal and Congrats on opening Issue :tada:"
+          pr-message: "Hey @${{ github.actor }}, Thanks for contributing to Hack4Bengal and Congrats on opening PR :tada:."
           footer: "We will try to review as soon as possible and a maintainer will get back to you soon!"
