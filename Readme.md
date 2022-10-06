@@ -1,11 +1,17 @@
-## [Hack4Bengal: An MLH Official 2022 Season Hackathon](https://hack4bengal.tech/)
+<h1 align="center">Hack4Bengal: An MLH Official 2022 Season Hackathon</h1>
 
-**Hackathon Website:** [https://hack4bengal.tech/](https://hack4bengal.tech/)
-
-
-
-
-![Contributor over time](https://contributor-overtime-api.apiseven.com/contributors-svg?chart=contributorOverTime&repo=hack4bengal/hack4bengal.github.io)
+<p align="center"><img src="https://github.com/hack4bengal/Media-Kit/blob/main/Logo/H4B%20Logo%20(%20Without%20Illustrations%2C%20Bengal%20-%20Grey%20)%20-%20Dark.png" alt="Logo" width="150px" height="150px" /><br>
+<p align="center">    
+    <img src=https://img.shields.io/github/license/OpenCodeyard/YouSafe>  
+    <a href="http://makeapullrequest.com" target="_blank"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat" alt="PRs Welcome"></a>
+    <img alt="GitHub Forks" src="https://img.shields.io/github/forks/OpenCodeyard/YouSafe">
+    <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/OpenCodeyard/YouSafe">
+    <img alt="GitHub issues" src="https://img.shields.io/github/issues/OpenCodeyard/YouSafe">
+    <img alt="Hacktoberfest issues" src="https://img.shields.io/github/hacktoberfest/2022/hack4bengal/hack4bengal.github.io">
+    <img alt="Contributor over time" src="https://contributor-overtime-api.apiseven.com/contributors-svg?chart=contributorOverTime&repo=hack4bengal/hack4bengal.github.io">
+    
+</p>
+<br>
 
 
 ## Hack4Bengal Overview
