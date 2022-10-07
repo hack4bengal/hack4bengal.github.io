@@ -33,8 +33,8 @@ h6 {
 }
 
 /*--------------------------------------------------------------
-  # Back to top button
-  --------------------------------------------------------------*/
+# Back to top button
+--------------------------------------------------------------*/
 .back-to-top {
   position: fixed;
   visibility: hidden;
@@ -63,16 +63,16 @@ h6 {
 }
 
 /*--------------------------------------------------------------
-  # Disable aos animation delay on mobile devices
-  --------------------------------------------------------------*/
+# Disable aos animation delay on mobile devices
+--------------------------------------------------------------*/
 @media screen and (max-width: 768px) {
   [data-aos-delay] {
     transition-delay: 0 !important;
   }
 }
 /*--------------------------------------------------------------
-  # Header
-  --------------------------------------------------------------*/
+# Header
+--------------------------------------------------------------*/
 #header {
   background: #fff;
   transition: all 0.5s;
@@ -101,8 +101,8 @@ h6 {
 }
 
 /*--------------------------------------------------------------
-  # Get Startet Button
-  --------------------------------------------------------------*/
+# Get Startet Button
+--------------------------------------------------------------*/
 .get-started-btn {
   margin-left: 30px;
   /* background: #e03a3c; */
@@ -127,11 +127,11 @@ h6 {
 }
 
 /*--------------------------------------------------------------
-  # Navigation Menu
-  --------------------------------------------------------------*/
+# Navigation Menu
+--------------------------------------------------------------*/
 /**
-  * Desktop Navigation 
-  */
+* Desktop Navigation 
+*/
 .navbar {
   padding: 0;
 }
@@ -225,8 +225,8 @@ h6 {
 }
 
 /**
-  * Mobile Navigation 
-  */
+* Mobile Navigation 
+*/
 .mobile-nav-toggle {
   color: #111111;
   font-size: 28px;
@@ -321,12 +321,12 @@ h6 {
 }
 
 /*--------------------------------------------------------------
-  # Hero Section
-  --------------------------------------------------------------*/
+# Hero Section
+--------------------------------------------------------------*/
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.png") top center no-repeat;
+  background: url("/assets/img/hero-bg.gif") top center no-repeat;
   background-size: cover;
   position: relative;
   padding-top: 82px;
@@ -360,10 +360,14 @@ h6 {
   padding: 10px 30px;
   border-radius: 4px;
   transition: 0.5s;
-  margin-top: 100px;
+  margin-top: 30px;
+  height: 44px;
+  width: 312px;
   color: #fff;
+  background: #810202;
+  white-space: nowrap;
   /* background: #e03a3c;
-    border: 2px solid #e03a3c; */
+  border: 2px solid #e03a3c; */
 }
 
 #hero .btn-join-discord {
@@ -379,9 +383,28 @@ h6 {
   font-size: 16px;
   font-weight: 600;
   display: inline-block;
-  background: #738adb;
+  background: #810202;
   text-align: center;
   /* border: 2px solid #738adb; */
+}
+
+@media (min-width: 1200px) and (max-width: 1600px) {
+  .fix {
+    display: flex;
+    margin-left: 15%;
+    margin-top: 4rem;
+  }
+  .fixx {
+    margin-left: 4rem;
+  }
+}
+@media (min-width: 1000px) and (max-width: 1200px) {
+  .fix {
+    margin-left: 2vw;
+  }
+  .fixx {
+    margin-left: 2rem;
+  }
 }
 
 #hero .discord {
@@ -390,7 +413,7 @@ h6 {
 }
 
 #hero .btn-get-started:hover {
-  background: #455db6;
+  background: #1b17fa;
   border-color: #fff;
 }
 
@@ -405,8 +428,8 @@ h6 {
   }
   #hero {
     text-align: center;
-    padding-top: 58px;
-    background: url("../img/picmob.png") top center no-repeat;
+    padding-top: 95%;
+    background: url("/assets/img/picmob.png") top center no-repeat;
   }
   #hero:before {
     content: "";
@@ -429,13 +452,25 @@ h6 {
     margin-left: 0px;
   }
 }
+@media (min-width: 700px) and (max-width: 900px) {
+  .fix {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 2rem;
+    margin-left: 15rem;
+    overflow-x: hidden;
+  }
+  .fixx {
+    margin-bottom: -18rem;
+  }
+}
 @media (max-height: 500px) {
   #counterTimer {
     font-size: 30px;
   }
   #hero {
     height: 120vh;
-    background: url("../img/picmob.png") top center no-repeat;
+    background: url("/assets/img/picmob.png") top center no-repeat;
   }
   #hero:before {
     content: "";
@@ -449,8 +484,8 @@ h6 {
 }
 
 /*--------------------------------------------------------------
-  # Sections General
-  --------------------------------------------------------------*/
+# Sections General
+--------------------------------------------------------------*/
 section {
   padding: 60px 0;
   overflow: hidden;
@@ -500,8 +535,8 @@ section {
 }
 
 /*--------------------------------------------------------------
-  # Breadcrumbs
-  --------------------------------------------------------------*/
+# Breadcrumbs
+--------------------------------------------------------------*/
 .breadcrumbs {
   padding: 15px 0;
   background: #2b2b2b;
@@ -539,8 +574,8 @@ section {
 }
 
 /*--------------------------------------------------------------
-  # Clients
-  --------------------------------------------------------------*/
+# Clients
+--------------------------------------------------------------*/
 .clients .swiper-pagination {
   margin-top: 20px;
   position: relative;
@@ -564,10 +599,17 @@ section {
   opacity: 1;
   filter: none;
 }
+.text-center {
+  margin-bottom: 10px;
+}
+.row {
+  justify-content: center;
+  align-items: center;
+}
 
 /*--------------------------------------------------------------
-  # About
-  --------------------------------------------------------------*/
+# About
+--------------------------------------------------------------*/
 .about .container {
   position: relative;
   z-index: 10;
@@ -594,6 +636,12 @@ section {
   display: inline-flex;
   align-items: center;
   border: 2px solid #e03a3c;
+}
+
+@media screen and (max-width: 430px) {
+  .about .content .about-btn {
+    margin-top: 10px;
+  }
 }
 .about .content .about-btn i {
   font-size: 16px;
@@ -632,8 +680,8 @@ section {
 }
 
 /*--------------------------------------------------------------
-  # Counts
-  --------------------------------------------------------------*/
+# Counts
+--------------------------------------------------------------*/
 .counts {
   padding-top: 80px;
 }
@@ -676,8 +724,8 @@ section {
 }
 
 /*--------------------------------------------------------------
-  # Tabs
-  --------------------------------------------------------------*/
+# Tabs
+--------------------------------------------------------------*/
 .tabs .nav-tabs {
   border: 0;
 }
@@ -748,8 +796,8 @@ section {
 }
 
 /*--------------------------------------------------------------
-  # Services
-  --------------------------------------------------------------*/
+# Services
+--------------------------------------------------------------*/
 .services .icon-box {
   margin-bottom: 20px;
   padding: 30px;
@@ -789,8 +837,8 @@ section {
 }
 
 /*--------------------------------------------------------------
-  # Portfolio
-  --------------------------------------------------------------*/
+# Portfolio
+--------------------------------------------------------------*/
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
@@ -896,8 +944,8 @@ section {
 }
 
 /*--------------------------------------------------------------
-  # Portfolio Details
-  --------------------------------------------------------------*/
+# Portfolio Details
+--------------------------------------------------------------*/
 .portfolio-details {
   padding-top: 40px;
 }
@@ -956,8 +1004,30 @@ section {
 }
 
 /*--------------------------------------------------------------
-  # Testimonials
-  --------------------------------------------------------------*/
+# Testimonials
+--------------------------------------------------------------*/
+#counterTimer {
+  font-size: 120px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+@media (max-width: 768px) {
+  #counterTimer {
+    font-size: 30px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+}
+
+@media (max-height: 500px) {
+  #counterTimer {
+    font-size: 30px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+}
+
 .testimonials .testimonials-carousel,
 .testimonials .testimonials-slider {
   overflow: hidden;
@@ -1010,6 +1080,16 @@ section {
   font-style: italic;
   margin: 30px auto 15px auto;
 }
+.testimonials .swiper-button-prev {
+  color: #e03a3c;
+  margin: 10px;
+  left: -4%;
+}
+.testimonials .swiper-button-next {
+  color: #e03a3c;
+  margin: 10px;
+  right: -4%;
+}
 .testimonials .swiper-pagination {
   margin-top: 20px;
   position: relative;
@@ -1026,8 +1106,17 @@ section {
 }
 
 /*--------------------------------------------------------------
-  # Pricing
-  --------------------------------------------------------------*/
+# Pricing
+--------------------------------------------------------------*/
+.sponsor-us {
+  border: #000;
+  border-radius: 30px;
+  padding: 10px 20px 10px 20px;
+  font-size: 20px;
+  font-weight: bold;
+  color: red;
+}
+
 .pricing {
   color: black !important;
 }
@@ -1111,9 +1200,25 @@ section {
 .pricing .box-third {
   background: #cd7f32;
 }
+
+#mlh-trust-badge {
+  display: block;
+  max-width: 100px;
+  min-width: 60px;
+  position: fixed;
+  right: 5px;
+  top: 0;
+  width: 10%;
+  z-index: 10000;
+}
+
+#mlh-trust-badge img {
+  width: 100%;
+}
+
 /*--------------------------------------------------------------
-  # Frequently Asked Questions
-  --------------------------------------------------------------*/
+# Frequently Asked Questions
+--------------------------------------------------------------*/
 .faq .faq-list {
   padding: 0;
   list-style: none;
@@ -1160,8 +1265,8 @@ section {
 }
 
 /*--------------------------------------------------------------
-  # Team
-  --------------------------------------------------------------*/
+# Team
+--------------------------------------------------------------*/
 .team .member {
   margin-bottom: 20px;
   overflow: hidden;
@@ -1233,8 +1338,8 @@ section {
 }
 
 /*--------------------------------------------------------------
-  # Contact
-  --------------------------------------------------------------*/
+# Contact
+--------------------------------------------------------------*/
 .contact .info-box {
   color: #444444;
   text-align: center;
@@ -1351,8 +1456,8 @@ section {
 }
 
 /*--------------------------------------------------------------
-  # Blog
-  --------------------------------------------------------------*/
+# Blog
+--------------------------------------------------------------*/
 .blog {
   padding: 40px 0 20px 0;
 }
@@ -1770,8 +1875,8 @@ section {
 }
 
 /*--------------------------------------------------------------
-  # Footer
-  --------------------------------------------------------------*/
+# Footer
+--------------------------------------------------------------*/
 #footer {
   color: #fff;
   font-size: 14px;
@@ -2153,4 +2258,27 @@ section {
   color: #112363;
   font-size: 15px;
   margin-bottom: 10px;
+}
+
+/* change css of scroll bar */
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #d7d7d7;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background: #ff1717;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #b30000;
+}
+
+.mlh {
+  margin-right: 7%;
+}
+.mlh-button {
+  margin-right: 35px;
 }
