@@ -326,7 +326,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("/assets/img/hero-bg.gif") top center no-repeat;
+  background: url("../img/hero-bg.gif") top center no-repeat;
   background-size: cover;
   position: relative;
   padding-top: 82px;
@@ -388,6 +388,25 @@ h6 {
   /* border: 2px solid #738adb; */
 }
 
+@media (min-width: 1200px) and (max-width: 1600px) {
+  .fix {
+    display: flex;
+    margin-left: 15%;
+    margin-top: 4rem;
+  }
+  .fixx {
+    margin-left: 4rem;
+  }
+}
+@media (min-width: 1000px) and (max-width: 1200px) {
+  .fix {
+    margin-left: 2vw;
+  }
+  .fixx {
+    margin-left: 2rem;
+  }
+}
+
 #hero .discord {
   text-align: left;
   color: white;
@@ -410,7 +429,7 @@ h6 {
   #hero {
     text-align: center;
     padding-top: 95%;
-    background: url("/assets/img/picmob.png") top center no-repeat;
+    background: url("../img/picmob.png") top center no-repeat;
   }
   #hero:before {
     content: "";
@@ -451,7 +470,7 @@ h6 {
   }
   #hero {
     height: 120vh;
-    background: url("/assets/img/picmob.png") top center no-repeat;
+    background: url("../img/picmob.png") top center no-repeat;
   }
   #hero:before {
     content: "";
@@ -461,25 +480,6 @@ h6 {
     top: 0;
     left: 0;
     right: 0;
-  }
-}
-
-@media (min-width: 1200px) and (max-width: 1600px) {
-  .fix {
-    display: flex;
-    margin-left: 15%;
-    margin-top: 4rem;
-  }
-  .fixx {
-    margin-left: 4rem;
-  }
-}
-@media (min-width: 1000px) and (max-width: 1200px) {
-  .fix {
-    margin-left: 2vw;
-  }
-  .fixx {
-    margin-left: 2rem;
   }
 }
 
@@ -598,13 +598,6 @@ section {
 .clients .swiper-slide img:hover {
   opacity: 1;
   filter: none;
-}
-.text-center {
-  margin-bottom: 10px;
-}
-.row {
-  justify-content: center;
-  align-items: center;
 }
 
 /*--------------------------------------------------------------
@@ -796,59 +789,59 @@ section {
 }
 
 /*--------------------------------------------------------------
-# themes
+# Services
 --------------------------------------------------------------*/
-.themes .icon-box {
+.services .icon-box {
   margin-bottom: 20px;
   padding: 30px;
   border-radius: 6px;
   background: #252525;
   transition: 0.3s;
 }
-.themes .icon-box:hover {
+.services .icon-box:hover {
   background: #2b2b2b;
 }
-.themes .icon-box i {
+.services .icon-box i {
   float: left;
   color: #e03a3c;
   font-size: 40px;
   line-height: 0;
 }
-.themes .icon-box h4 {
+.services .icon-box h4 {
   margin-left: 70px;
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 18px;
 }
-.themes .icon-box h4 a {
+.services .icon-box h4 a {
   color: #fff;
   transition: 0.3s;
 }
-.themes .icon-box h4 a:hover {
+.services .icon-box h4 a:hover {
   text-decoration: underline;
 }
-.themes .icon-box .icon-box:hover h4 a {
+.services .icon-box .icon-box:hover h4 a {
   color: #e03a3c;
 }
-.themes .icon-box p {
+.services .icon-box p {
   margin-left: 70px;
   line-height: 24px;
   font-size: 14px;
 }
 
 /*--------------------------------------------------------------
-# sponsors
+# Portfolio
 --------------------------------------------------------------*/
-.sponsors .sponsors-item {
+.portfolio .portfolio-item {
   margin-bottom: 30px;
 }
-.sponsors #sponsors-flters {
+.portfolio #portfolio-flters {
   padding: 0;
   margin: 0 auto 20px auto;
   list-style: none;
   text-align: center;
 }
-.sponsors #sponsors-flters li {
+.portfolio #portfolio-flters li {
   cursor: pointer;
   display: inline-block;
   padding: 8px 15px 10px 15px;
@@ -861,22 +854,22 @@ section {
   transition: all 0.3s ease-in-out;
   border-radius: 3px;
 }
-.sponsors #sponsors-flters li:hover,
-.sponsors #sponsors-flters li.filter-active {
+.portfolio #portfolio-flters li:hover,
+.portfolio #portfolio-flters li.filter-active {
   color: #fff;
   background: #e03a3c;
 }
-.sponsors #sponsors-flters li:last-child {
+.portfolio #portfolio-flters li:last-child {
   margin-right: 0;
 }
-.sponsors .sponsors-wrap {
+.portfolio .portfolio-wrap {
   transition: 0.3s;
   position: relative;
   overflow: hidden;
   z-index: 1;
   background: rgba(17, 17, 17, 0.6);
 }
-.sponsors .sponsors-wrap::before {
+.portfolio .portfolio-wrap::before {
   content: "";
   background: rgba(17, 17, 17, 0.6);
   position: absolute;
@@ -888,10 +881,10 @@ section {
   z-index: 2;
   opacity: 0;
 }
-.sponsors .sponsors-wrap img {
+.portfolio .portfolio-wrap img {
   transition: all ease-in-out 0.3s;
 }
-.sponsors .sponsors-wrap .sponsors-info {
+.portfolio .portfolio-wrap .portfolio-info {
   opacity: 0;
   position: absolute;
   top: 0;
@@ -906,12 +899,12 @@ section {
   align-items: flex-start;
   padding: 20px;
 }
-.sponsors .sponsors-wrap .sponsors-info h4 {
+.portfolio .portfolio-wrap .portfolio-info h4 {
   font-size: 20px;
   color: #fff;
   font-weight: 600;
 }
-.sponsors .sponsors-wrap .sponsors-info p {
+.portfolio .portfolio-wrap .portfolio-info p {
   color: rgba(255, 255, 255, 0.7);
   font-size: 14px;
   text-transform: uppercase;
@@ -919,45 +912,45 @@ section {
   margin: 0;
   font-style: italic;
 }
-.sponsors .sponsors-wrap .sponsors-links {
+.portfolio .portfolio-wrap .portfolio-links {
   text-align: center;
   z-index: 4;
 }
-.sponsors .sponsors-wrap .sponsors-links a {
+.portfolio .portfolio-wrap .portfolio-links a {
   color: rgba(255, 255, 255, 0.4);
   margin: 0 5px 0 0;
   font-size: 28px;
   display: inline-block;
   transition: 0.3s;
 }
-.sponsors .sponsors-wrap .sponsors-links a:hover {
+.portfolio .portfolio-wrap .portfolio-links a:hover {
   color: #fff;
 }
-.sponsors .sponsors-wrap:hover::before {
+.portfolio .portfolio-wrap:hover::before {
   opacity: 1;
 }
-.sponsors .sponsors-wrap:hover img {
+.portfolio .portfolio-wrap:hover img {
   transform: scale(1.2);
 }
-.sponsors .sponsors-wrap:hover .sponsors-info {
+.portfolio .portfolio-wrap:hover .portfolio-info {
   opacity: 1;
 }
 
 /*--------------------------------------------------------------
-# sponsors Details
+# Portfolio Details
 --------------------------------------------------------------*/
-.sponsors-details {
+.portfolio-details {
   padding-top: 40px;
 }
-.sponsors-details .sponsors-details-slider img {
+.portfolio-details .portfolio-details-slider img {
   width: 100%;
 }
-.sponsors-details .sponsors-details-slider .swiper-pagination {
+.portfolio-details .portfolio-details-slider .swiper-pagination {
   margin-top: 20px;
   position: relative;
 }
-.sponsors-details
-  .sponsors-details-slider
+.portfolio-details
+  .portfolio-details-slider
   .swiper-pagination
   .swiper-pagination-bullet {
   width: 12px;
@@ -966,68 +959,46 @@ section {
   opacity: 1;
   border: 1px solid #e03a3c;
 }
-.sponsors-details
-  .sponsors-details-slider
+.portfolio-details
+  .portfolio-details-slider
   .swiper-pagination
   .swiper-pagination-bullet-active {
   background-color: #e03a3c;
 }
-.sponsors-details .sponsors-info {
+.portfolio-details .portfolio-info {
   padding: 30px;
   box-shadow: 0px 0 30px rgba(17, 17, 17, 0.08);
 }
-.sponsors-details .sponsors-info h3 {
+.portfolio-details .portfolio-info h3 {
   font-size: 22px;
   font-weight: 700;
   margin-bottom: 20px;
   padding-bottom: 20px;
   border-bottom: 1px solid #eee;
 }
-.sponsors-details .sponsors-info ul {
+.portfolio-details .portfolio-info ul {
   list-style: none;
   padding: 0;
   font-size: 15px;
 }
-.sponsors-details .sponsors-info ul li + li {
+.portfolio-details .portfolio-info ul li + li {
   margin-top: 10px;
 }
-.sponsors-details .sponsors-description {
+.portfolio-details .portfolio-description {
   padding-top: 30px;
 }
-.sponsors-details .sponsors-description h2 {
+.portfolio-details .portfolio-description h2 {
   font-size: 26px;
   font-weight: 700;
   margin-bottom: 20px;
 }
-.sponsors-details .sponsors-description p {
+.portfolio-details .portfolio-description p {
   padding: 0;
 }
 
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
-#counterTimer {
-  font-size: 120px;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-}
-
-@media (max-width: 768px) {
-  #counterTimer {
-    font-size: 30px;
-    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  }
-}
-
-@media (max-height: 500px) {
-  #counterTimer {
-    font-size: 30px;
-    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  }
-}
-
 .testimonials .testimonials-carousel,
 .testimonials .testimonials-slider {
   overflow: hidden;
@@ -1041,11 +1012,6 @@ section {
   position: relative;
   background: #fff;
   border-radius: 15px;
-}
-@media (max-width: 480px) {
-  .testimonials .testimonial-item {
-    margin: 30px 30px;
-  }
 }
 .testimonials .testimonial-item .testimonial-img {
   width: 90px;
@@ -1090,20 +1056,10 @@ section {
   margin: 10px;
   left: -4%;
 }
-@media (max-width: 480px) {
-  .testimonials .swiper-button-prev {
-    margin: 20px;
-  }
-}
 .testimonials .swiper-button-next {
   color: #e03a3c;
   margin: 10px;
   right: -4%;
-}
-@media (max-width: 480px) {
-  .testimonials .swiper-button-next {
-    margin: 20px;
-  }
 }
 .testimonials .swiper-pagination {
   margin-top: 20px;
@@ -1123,15 +1079,6 @@ section {
 /*--------------------------------------------------------------
 # Pricing
 --------------------------------------------------------------*/
-.sponsor-us {
-  border: #000;
-  border-radius: 30px;
-  padding: 10px 20px 10px 20px;
-  font-size: 20px;
-  font-weight: bold;
-  color: red;
-}
-
 .pricing {
   color: black !important;
 }
@@ -1215,22 +1162,6 @@ section {
 .pricing .box-third {
   background: #cd7f32;
 }
-
-#mlh-trust-badge {
-  display: block;
-  max-width: 100px;
-  min-width: 60px;
-  position: fixed;
-  right: 5px;
-  top: 0;
-  width: 10%;
-  z-index: 10000;
-}
-
-#mlh-trust-badge img {
-  width: 100%;
-}
-
 /*--------------------------------------------------------------
 # Frequently Asked Questions
 --------------------------------------------------------------*/
