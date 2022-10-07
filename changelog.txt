@@ -35,7 +35,7 @@ Version: 3.0.1
 Version: 3.0.0
   - The template does not require jQuery anymore
   - Removed jQuery and all the jQuery plugins
-  - The assets/js/main.js was rewritten completely with vanilla Javascript. No more jQuery code
+  - The js/main.js was rewritten completely with vanilla Javascript. No more jQuery code
   - Restructured the dev version for better development experience
   - Updated the PHP Email Form to V3.0 - No jQuery dependency. Added attachment support
 
