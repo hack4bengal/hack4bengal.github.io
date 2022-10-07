@@ -1051,6 +1051,16 @@ section {
   font-style: italic;
   margin: 30px auto 15px auto;
 }
+.testimonials .swiper-button-prev {
+  color: #e03a3c;
+  margin: 10px;
+  left: -4%;
+}
+.testimonials .swiper-button-next {
+  color: #e03a3c;
+  margin: 10px;
+  right: -4%;
+}
 .testimonials .swiper-pagination {
   margin-top: 20px;
   position: relative;

@@ -210,29 +210,29 @@
    * Porfolio isotope and filter
    */
   window.addEventListener("load", () => {
-    let sponsorsContainer = select(".sponsors-container");
-    if (sponsorsContainer) {
-      let sponsorsIsotope = new Isotope(sponsorsContainer, {
-        itemSelector: ".sponsors-item",
+    let portfolioContainer = select(".portfolio-container");
+    if (portfolioContainer) {
+      let portfolioIsotope = new Isotope(portfolioContainer, {
+        itemSelector: ".portfolio-item",
         layoutMode: "fitRows",
       });
 
-      let sponsorsFilters = select("#sponsors-flters li", true);
+      let portfolioFilters = select("#portfolio-flters li", true);
 
       on(
         "click",
-        "#sponsors-flters li",
+        "#portfolio-flters li",
         function (e) {
           e.preventDefault();
-          sponsorsFilters.forEach(function (el) {
+          portfolioFilters.forEach(function (el) {
             el.classList.remove("filter-active");
           });
           this.classList.add("filter-active");
 
-          sponsorsIsotope.arrange({
+          portfolioIsotope.arrange({
             filter: this.getAttribute("data-filter"),
           });
-          sponsorsIsotope.on("arrangeComplete", function () {
+          portfolioIsotope.on("arrangeComplete", function () {
             AOS.refresh();
           });
         },
@@ -242,16 +242,16 @@
   });
 
   /**
-   * Initiate sponsors lightbox
+   * Initiate portfolio lightbox
    */
-  const sponsorsLightbox = GLightbox({
-    selector: ".sponsors-lightbox",
+  const portfolioLightbox = GLightbox({
+    selector: ".portfolio-lightbox",
   });
 
   /**
    * sponsors details slider
    */
-  new Swiper(".sponsors-details-slider", {
+  new Swiper(".portfolio-details-slider", {
     speed: 400,
     loop: true,
     autoplay: {
@@ -281,6 +281,13 @@
       type: "bullets",
       clickable: true,
     },
+
+    // Navigation arrows
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+
     breakpoints: {
       320: {
         slidesPerView: 1,
