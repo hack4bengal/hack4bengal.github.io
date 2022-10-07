@@ -388,25 +388,6 @@ h6 {
   /* border: 2px solid #738adb; */
 }
 
-@media (min-width: 1200px) and (max-width: 1600px) {
-  .fix {
-    display: flex;
-    margin-left: 15%;
-    margin-top: 4rem;
-  }
-  .fixx {
-    margin-left: 4rem;
-  }
-}
-@media (min-width: 1000px) and (max-width: 1200px) {
-  .fix {
-    margin-left: 2vw;
-  }
-  .fixx {
-    margin-left: 2rem;
-  }
-}
-
 #hero .discord {
   text-align: left;
   color: white;
@@ -480,6 +461,25 @@ h6 {
     top: 0;
     left: 0;
     right: 0;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1600px) {
+  .fix {
+    display: flex;
+    margin-left: 15%;
+    margin-top: 4rem;
+  }
+  .fixx {
+    margin-left: 4rem;
+  }
+}
+@media (min-width: 1000px) and (max-width: 1200px) {
+  .fix {
+    margin-left: 2vw;
+  }
+  .fixx {
+    margin-left: 2rem;
   }
 }
 
