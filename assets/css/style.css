@@ -388,25 +388,24 @@ h6 {
   /* border: 2px solid #738adb; */
 }
 
-@media (min-width : 1200px) and (max-width : 1600px){
-  .fix{
+@media (min-width: 1200px) and (max-width: 1600px) {
+  .fix {
     display: flex;
     margin-left: 15%;
     margin-top: 4rem;
   }
-  .fixx{
+  .fixx {
     margin-left: 4rem;
   }
 }
-@media (min-width : 1000px) and (max-width : 1200px){
-  .fix{
+@media (min-width: 1000px) and (max-width: 1200px) {
+  .fix {
     margin-left: 2vw;
   }
-  .fixx{
+  .fixx {
     margin-left: 2rem;
   }
 }
-
 
 #hero .discord {
   text-align: left;
@@ -453,16 +452,15 @@ h6 {
     margin-left: 0px;
   }
 }
-@media (min-width : 700px) and (max-width : 900px){
-
-  .fix{
+@media (min-width: 700px) and (max-width: 900px) {
+  .fix {
     display: flex;
     flex-direction: column-reverse;
     margin-top: 2rem;
     margin-left: 15rem;
     overflow-x: hidden;
   }
-  .fixx{
+  .fixx {
     margin-bottom: -18rem;
   }
 }
@@ -791,59 +789,59 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Services
+# themes
 --------------------------------------------------------------*/
-.services .icon-box {
+.themes .icon-box {
   margin-bottom: 20px;
   padding: 30px;
   border-radius: 6px;
   background: #252525;
   transition: 0.3s;
 }
-.services .icon-box:hover {
+.themes .icon-box:hover {
   background: #2b2b2b;
 }
-.services .icon-box i {
+.themes .icon-box i {
   float: left;
   color: #e03a3c;
   font-size: 40px;
   line-height: 0;
 }
-.services .icon-box h4 {
+.themes .icon-box h4 {
   margin-left: 70px;
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 18px;
 }
-.services .icon-box h4 a {
+.themes .icon-box h4 a {
   color: #fff;
   transition: 0.3s;
 }
-.services .icon-box h4 a:hover {
+.themes .icon-box h4 a:hover {
   text-decoration: underline;
 }
-.services .icon-box .icon-box:hover h4 a {
+.themes .icon-box .icon-box:hover h4 a {
   color: #e03a3c;
 }
-.services .icon-box p {
+.themes .icon-box p {
   margin-left: 70px;
   line-height: 24px;
   font-size: 14px;
 }
 
 /*--------------------------------------------------------------
-# Portfolio
+# sponsors
 --------------------------------------------------------------*/
-.portfolio .portfolio-item {
+.sponsors .sponsors-item {
   margin-bottom: 30px;
 }
-.portfolio #portfolio-flters {
+.sponsors #sponsors-flters {
   padding: 0;
   margin: 0 auto 20px auto;
   list-style: none;
   text-align: center;
 }
-.portfolio #portfolio-flters li {
+.sponsors #sponsors-flters li {
   cursor: pointer;
   display: inline-block;
   padding: 8px 15px 10px 15px;
@@ -856,22 +854,22 @@ section {
   transition: all 0.3s ease-in-out;
   border-radius: 3px;
 }
-.portfolio #portfolio-flters li:hover,
-.portfolio #portfolio-flters li.filter-active {
+.sponsors #sponsors-flters li:hover,
+.sponsors #sponsors-flters li.filter-active {
   color: #fff;
   background: #e03a3c;
 }
-.portfolio #portfolio-flters li:last-child {
+.sponsors #sponsors-flters li:last-child {
   margin-right: 0;
 }
-.portfolio .portfolio-wrap {
+.sponsors .sponsors-wrap {
   transition: 0.3s;
   position: relative;
   overflow: hidden;
   z-index: 1;
   background: rgba(17, 17, 17, 0.6);
 }
-.portfolio .portfolio-wrap::before {
+.sponsors .sponsors-wrap::before {
   content: "";
   background: rgba(17, 17, 17, 0.6);
   position: absolute;
@@ -883,10 +881,10 @@ section {
   z-index: 2;
   opacity: 0;
 }
-.portfolio .portfolio-wrap img {
+.sponsors .sponsors-wrap img {
   transition: all ease-in-out 0.3s;
 }
-.portfolio .portfolio-wrap .portfolio-info {
+.sponsors .sponsors-wrap .sponsors-info {
   opacity: 0;
   position: absolute;
   top: 0;
@@ -901,12 +899,12 @@ section {
   align-items: flex-start;
   padding: 20px;
 }
-.portfolio .portfolio-wrap .portfolio-info h4 {
+.sponsors .sponsors-wrap .sponsors-info h4 {
   font-size: 20px;
   color: #fff;
   font-weight: 600;
 }
-.portfolio .portfolio-wrap .portfolio-info p {
+.sponsors .sponsors-wrap .sponsors-info p {
   color: rgba(255, 255, 255, 0.7);
   font-size: 14px;
   text-transform: uppercase;
@@ -914,45 +912,45 @@ section {
   margin: 0;
   font-style: italic;
 }
-.portfolio .portfolio-wrap .portfolio-links {
+.sponsors .sponsors-wrap .sponsors-links {
   text-align: center;
   z-index: 4;
 }
-.portfolio .portfolio-wrap .portfolio-links a {
+.sponsors .sponsors-wrap .sponsors-links a {
   color: rgba(255, 255, 255, 0.4);
   margin: 0 5px 0 0;
   font-size: 28px;
   display: inline-block;
   transition: 0.3s;
 }
-.portfolio .portfolio-wrap .portfolio-links a:hover {
+.sponsors .sponsors-wrap .sponsors-links a:hover {
   color: #fff;
 }
-.portfolio .portfolio-wrap:hover::before {
+.sponsors .sponsors-wrap:hover::before {
   opacity: 1;
 }
-.portfolio .portfolio-wrap:hover img {
+.sponsors .sponsors-wrap:hover img {
   transform: scale(1.2);
 }
-.portfolio .portfolio-wrap:hover .portfolio-info {
+.sponsors .sponsors-wrap:hover .sponsors-info {
   opacity: 1;
 }
 
 /*--------------------------------------------------------------
-# Portfolio Details
+# sponsors Details
 --------------------------------------------------------------*/
-.portfolio-details {
+.sponsors-details {
   padding-top: 40px;
 }
-.portfolio-details .portfolio-details-slider img {
+.sponsors-details .sponsors-details-slider img {
   width: 100%;
 }
-.portfolio-details .portfolio-details-slider .swiper-pagination {
+.sponsors-details .sponsors-details-slider .swiper-pagination {
   margin-top: 20px;
   position: relative;
 }
-.portfolio-details
-  .portfolio-details-slider
+.sponsors-details
+  .sponsors-details-slider
   .swiper-pagination
   .swiper-pagination-bullet {
   width: 12px;
@@ -961,40 +959,40 @@ section {
   opacity: 1;
   border: 1px solid #e03a3c;
 }
-.portfolio-details
-  .portfolio-details-slider
+.sponsors-details
+  .sponsors-details-slider
   .swiper-pagination
   .swiper-pagination-bullet-active {
   background-color: #e03a3c;
 }
-.portfolio-details .portfolio-info {
+.sponsors-details .sponsors-info {
   padding: 30px;
   box-shadow: 0px 0 30px rgba(17, 17, 17, 0.08);
 }
-.portfolio-details .portfolio-info h3 {
+.sponsors-details .sponsors-info h3 {
   font-size: 22px;
   font-weight: 700;
   margin-bottom: 20px;
   padding-bottom: 20px;
   border-bottom: 1px solid #eee;
 }
-.portfolio-details .portfolio-info ul {
+.sponsors-details .sponsors-info ul {
   list-style: none;
   padding: 0;
   font-size: 15px;
 }
-.portfolio-details .portfolio-info ul li + li {
+.sponsors-details .sponsors-info ul li + li {
   margin-top: 10px;
 }
-.portfolio-details .portfolio-description {
+.sponsors-details .sponsors-description {
   padding-top: 30px;
 }
-.portfolio-details .portfolio-description h2 {
+.sponsors-details .sponsors-description h2 {
   font-size: 26px;
   font-weight: 700;
   margin-bottom: 20px;
 }
-.portfolio-details .portfolio-description p {
+.sponsors-details .sponsors-description p {
   padding: 0;
 }
 
@@ -2198,7 +2196,6 @@ section {
   margin-bottom: 10px;
 }
 
-
 /* change css of scroll bar */
 
 ::-webkit-scrollbar {
@@ -2209,7 +2206,7 @@ section {
 }
 ::-webkit-scrollbar-thumb {
   border-radius: 5px;
-  background: #FF1717;
+  background: #ff1717;
 }
 ::-webkit-scrollbar-thumb:hover {
   background: #b30000;
@@ -2221,4 +2218,3 @@ section {
 .mlh-button {
   margin-right: 35px;
 }
-
