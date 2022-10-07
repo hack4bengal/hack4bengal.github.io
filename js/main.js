@@ -249,7 +249,7 @@
   });
 
   /**
-   * Portfolio details slider
+   * sponsors details slider
    */
   new Swiper(".portfolio-details-slider", {
     speed: 400,
