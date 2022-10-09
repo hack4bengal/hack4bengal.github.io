@@ -21,3 +21,9 @@ The Hackathon will not only be a 48 Hours blast, it would be a timeline of madne
 
 ### Opportunity
 Thanks for contributing `TOP Contributors` or an `Active Contributor` willing to contribute further as a Core Team Member of Hack4Bengal Season 2 are most welcome, make sure to interact here in our [Discord Server](https://discord.com/channels/920970750154899476/1024245730958909470) as well and talk about your contribution. So that it will be easier for us to choose some of you. Happy Hacktoberfest!! <3
+
+
+## OUR VALUABLE CONTRIBUTORS✨
+<a href="https://github.com/hack4bengal/hack4bengal.github.io/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=hack4bengal/hack4bengal.github.io" />
+</a>
