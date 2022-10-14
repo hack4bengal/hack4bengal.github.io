@@ -1,7 +1,15 @@
 name: 📄 Documentation issue
 description: Found an issue in the documentation? You can use this one!
 title: "[DOCS] <description>"
-labels: ["documentation"]
+labels:
+  [
+    "documentation",
+    "✨ goal: improvement",
+    "🛠 status : under development",
+    "🟨 priority: medium",
+    "📄 aspect: text",
+    "hacktoberfest",
+  ]
 body:
   - type: textarea
     id: description
