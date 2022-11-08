@@ -25,7 +25,12 @@
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
+  <script src="jquery.js"></script> 
+  <script> 
+  $(function(){
+    $("#includedContent").load("index.html"); 
+  });
+  </script> 
   <!-- Template Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
   <script
@@ -119,7 +124,9 @@
     </div>
 
   </section><!-- End Hero Section -->
+  
   <section id="get-started" class="get-started section-bg">
+    <div id="includedContent"></div>
     <div class="container">
 
       <div class="row justify-content-between gy-4">
