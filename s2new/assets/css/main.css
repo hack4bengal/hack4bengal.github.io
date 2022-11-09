@@ -2598,6 +2598,13 @@ section {
   margin-bottom: 30px;
 }
 
+.footer .footer-content .footer-first {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
 .footer .footer-content .footer-info h3 {
   font-size: 28px;
   margin: 0 0 20px 0;
@@ -2605,6 +2612,15 @@ section {
   line-height: 1;
   font-weight: 700;
   text-transform: uppercase;
+}
+
+.footer .footer-content .footer-info p a {
+  color: #fff;
+  transition: 0.3s;
+}
+
+.footer .footer-content .footer-info p a:hover {
+  color: var(--color-primary);
 }
 
 .footer .footer-content .footer-info h3 span {
@@ -2639,15 +2655,32 @@ section {
 
 .footer .footer-content h4 {
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 800;
   color: #fff;
   position: relative;
-  padding-bottom: 12px;
+  margin-bottom: 12px;
+  padding-bottom: 6px;
+}
+
+.footer .footer-content h4::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 30px;
+  height: 2.5px;
+  background: #e03a3c;
+  bottom: 0;
+  left: 0;
 }
 
 .footer .footer-content .footer-links {
   margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
+
 
 .footer .footer-content .footer-links ul {
   list-style: none;
@@ -2664,14 +2697,15 @@ section {
 }
 
 .footer .footer-content .footer-links ul a {
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.78);
   transition: 0.3s;
   display: inline-block;
   line-height: 1;
+  transition: 0.5s;
 }
 
 .footer .footer-content .footer-links ul a:hover {
-  color: #fff;
+  color: var(--color-primary);
 }
 
 .footer .footer-legal .copyright {
@@ -2687,4 +2721,32 @@ section {
 
 .footer .footer-legal .credits a {
   color: var(--color-primary);
+}
+
+.footer .footer-content .footer-links p span {
+  color: var(--color-primary);
+}
+
+.footer .footer-content .footer-links .footer-info-last {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 18px;
+  text-align: center;
+  margin: 0;
+}
+
+.footer .footer-content .footer-links .footer-info-last a {
+  color: rgba(255, 255, 255, 0.78);
+}
+
+.footer .footer-content .footer-links img {
+  transition: 0.5s;
+  width: 40%;
+  height: auto;
+}
+
+.footer .footer-content .footer-links .footer-info-last img:hover {
+  transform: rotateY(180deg);
+  transition: 0.5s;
 }
