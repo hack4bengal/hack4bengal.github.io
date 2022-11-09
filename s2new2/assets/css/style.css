@@ -520,18 +520,18 @@ section {
 @media (max-width: 768px) {
   .hero {
     text-align: center;
-    background: url(../img/mobh4vv.png);
-    padding-bottom: 300px;
+    background: url(../img/mob17.png);
+    padding-bottom: 60px;
   }
 
   .hero h1 {
-    font-size: 30px;
+    font-size: 28px;
     padding-top: 370px;
   }
 
   
   .hero h2 {
-    font-size: 19px;
+    font-size: 17px;
     color: #000000;
   }
 
