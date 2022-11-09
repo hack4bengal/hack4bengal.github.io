@@ -446,7 +446,7 @@ section {
 .hero {
   width: 100%;
   height: 100vh;
-  background: url(../img/main-hero-final.png) top center no-repeat;
+  background: url(../img/hero-final-v1.png) top center no-repeat;
   background-size: cover;
 }
 
