@@ -44,6 +44,13 @@ section {
   overflow: hidden;
 }
 
+@media (max-width: 768px) {
+  section {
+    padding: 20px 0;
+    overflow: hidden;
+  }
+}
+
 .section-header {
   text-align: center;
   padding-bottom: 40px;
@@ -550,7 +557,6 @@ section {
   background-color: #f6f9ff;
   padding: 40px;
 }
-
 .about h3 {
   font-size: 14px;
   font-weight: 700;
@@ -607,6 +613,13 @@ section {
   height: 100%;
 }
 
+@media (max-width: 768px) {
+  .values {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
 .values .box img {
   padding: 30px 50px;
   transition: 0.5s;
@@ -633,6 +646,13 @@ section {
 --------------------------------------------------------------*/
 .counts {
   padding: 70px 0 60px;
+}
+
+@media (max-width: 768px) {
+  .counts {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
 
 .counts .count-box {
@@ -673,6 +693,13 @@ section {
   box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
   transition: 0.3s;
   height: 100%;
+}
+
+@media (max-width: 768px) {
+  .features {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
 
 .features .feature-box h3 {
@@ -959,6 +986,13 @@ section {
   transition: 0.3s;
 }
 
+@media (max-width: 768px) {
+  .pricing {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
 .pricing .box:hover {
   transform: scale(1.1);
   box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1);
@@ -1049,6 +1083,12 @@ section {
 --------------------------------------------------------------*/
 .faq .accordion-collapse {
   border: 0;
+}
+@media (max-width: 768px) {
+  .faq {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
 
 .faq .accordion-button {
@@ -1410,6 +1450,12 @@ section {
   padding: 60px 0;
 }
 
+@media (max-width: 768px) {
+  .team {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
 .team .member {
   overflow: hidden;
   text-align: center;
@@ -2235,14 +2281,21 @@ section {
 # Footer
 --------------------------------------------------------------*/
 .footer {
-  background: #f6f9ff;
+  background: #ffffff;
   padding: 0 0 30px 0;
   font-size: 14px;
 }
 
+@media (max-width: 768px) {
+  .footer {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
 .footer .footer-newsletter {
   padding: 50px 0;
-  background: #f6f9ff;
+  background: #ffffff;
   border-top: 1px solid #e1ecff;
 }
 
