@@ -470,14 +470,64 @@ section {
   font-size: 26px;
 }
 
+/* <!-- HTML !-->
+<button class="button-29" role="button">Button 29</button> */
+
+/* CSS */
+/* .button-29 {
+  align-items: center;
+  appearance: none;
+  background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+} */
+
+/* .button-29:focus {
+  box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+
+.button-29:hover {
+  box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.button-29:active {
+  box-shadow: #3c4fe0 0 3px 7px inset;
+  transform: translateY(2px);
+} */
+
 .hero .btn-get-started {
+  margin-right: 10px;
   margin-top: 30px;
   line-height: 0;
   padding: 15px 40px;
   border-radius: 4px;
   transition: 0.5s;
   color: #fff;
-  background: #4154f1;
+  background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
   box-shadow: 0px 5px 30px rgba(65, 84, 241, 0.4);
 }
 
@@ -493,7 +543,10 @@ section {
   font-size: 18px;
   transition: 0.3s;
 }
-
+.hero .btn-get-started:hover{
+  background-image: radial-gradient(100% 100% at 100% 0, #551615 0, #dc393b 100%);
+  box-shadow: 0px 5px 30px rgba(220, 57, 59, 0.4);
+}
 .hero .btn-get-started:hover i {
   transform: translateX(5px);
 }
@@ -522,24 +575,31 @@ section {
   .hero .hero-img img {
     width: 80%;
   }
+
+
 }
 
 @media (max-width: 768px) {
   .hero {
     text-align: center;
     background: url(../img/mob17.png);
+    background-size: cover;
     padding-bottom: 60px;
   }
 
   .hero h1 {
     font-size: 28px;
-    padding-top: 370px;
+    padding-top: 160px;
   }
 
+  .hero .btn-get-started {
+    margin-bottom: 160px;
+      }
+      
   
   .hero h2 {
     font-size: 17px;
-    color: #000000;
+    color: #ffffff;
   }
 
   .hero .hero-img img {
