@@ -2525,9 +2525,9 @@ section {
 }
 
 
-
 .pricing .box:hover{
   transform: none !important;
+  
 }
 
 .carousel-indicators{
@@ -2550,4 +2550,11 @@ section {
 
 .mob-carousel-indicators button.active{
   background-color: #dc393b;
+}
+
+.carousel-inner .active .box{
+  box-shadow: none;
+}
+.carousel-inner .box{
+  box-shadow: 0px 0 30px rgb(1 41 112 / 8%);
 }
