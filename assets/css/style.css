@@ -596,9 +596,6 @@ section {
     margin-bottom: 160px;
       }
       
-  .hero-buttons a:first-child{
-    margin-bottom: 10px !important;
-  }
   
   .hero h2 {
     font-size: 17px;
@@ -608,15 +605,6 @@ section {
   .hero .hero-img img {
     width: 100%;
   }
-
-  .hero-buttons{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    /* display: flex; */
-  }
-
 }
 
 /*--------------------------------------------------------------
@@ -2536,7 +2524,6 @@ section {
   color: #dc393b;
 }
 
-/* Mobile Carousel */
 
 .pricing .box:hover{
   transform: none !important;
@@ -2570,8 +2557,4 @@ section {
 }
 .carousel-inner .box{
   box-shadow: 0px 0 30px rgb(1 41 112 / 8%);
-}
-
-.carousel-item{
-  transition: transform 0.5s ease;
 }
