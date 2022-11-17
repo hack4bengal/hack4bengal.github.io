@@ -2524,18 +2524,17 @@ section {
   color: #dc393b;
 }
 
-.prizes-carousel-indicators{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 10px !important;
-}
+
 
 .pricing .box:hover{
   transform: none !important;
 }
 
-.prizes-carousel-indicators button{
+.carousel-indicators{
+  position: inherit;
+}
+
+.mob-carousel-indicators button{
   height:10px !important;
   width:10px !important;
   border-radius:50%;
@@ -2545,8 +2544,10 @@ section {
   outline: none;
   cursor: pointer;
   background-color: white;
+  position: inherit;
+  margin-top:10px;
 }
 
-.prizes-carousel-indicators button.active{
+.mob-carousel-indicators button.active{
   background-color: #dc393b;
 }
