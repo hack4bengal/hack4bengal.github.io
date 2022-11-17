@@ -2523,3 +2523,31 @@ section {
   font-size: 13px;
   color: #dc393b;
 }
+
+
+
+.pricing .box:hover{
+  transform: none !important;
+}
+
+.carousel-indicators{
+  position: inherit;
+}
+
+.mob-carousel-indicators button{
+  height:10px !important;
+  width:10px !important;
+  border-radius:50%;
+  margin-left:5px;
+  margin-right:5px;
+  border: 1px solid #dc393b !important;
+  outline: none;
+  cursor: pointer;
+  background-color: white;
+  position: inherit;
+  margin-top:10px;
+}
+
+.mob-carousel-indicators button.active{
+  background-color: #dc393b;
+}
