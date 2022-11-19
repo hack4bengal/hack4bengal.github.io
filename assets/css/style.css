@@ -716,7 +716,7 @@ section {
 /*--------------------------------------------------------------
 # Counts
 --------------------------------------------------------------*/
-.counts {
+/* .counts {
   padding: 70px 0 60px;
 }
 
@@ -748,13 +748,107 @@ section {
   display: block;
   font-weight: 600;
   color: #0b198f;
-}
+} */
 
 .counts .count-box p {
   padding: 0;
   margin: 0;
   font-family: "Nunito", sans-serif;
   font-size: 14px;
+}
+
+
+/*------*/
+.counter{
+  color: #144fe5;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  height: 190px;
+  width: 190px;
+  padding: 30px 25px 25px;
+  margin: 0 auto;
+  border: 3px solid #2132f2;
+  border-radius: 20px 20px;
+  position: relative;
+  z-index: 1;
+}
+.counter:before,
+.counter:after{
+  content: "";
+  background: #f3f3f3;
+  border-radius: 20px;
+  box-shadow: 4px 4px 2px rgba(0,0,0,0.2);
+  position: absolute;
+  left: 15px;
+  top: 15px;
+  bottom: 15px;
+  right: 15px;
+  z-index: -1;
+}
+.counter:after{
+  background: transparent;
+  width: 100px;
+  height: 100px;
+  border: 15px solid #144fe5;
+  border-top: none;
+  border-right: none;
+  border-radius: 0 0 0 20px;
+  box-shadow: none;
+  top: auto;
+  left: -10px;
+  bottom: -10px;
+  right: auto;
+}
+.counter .counter-icon{
+  font-size: 35px;
+  line-height: 35px;
+  margin: 0 0 15px;
+  transition: all 0.3s ease 0s;
+}
+.counter:hover .counter-icon{ transform: rotateY(360deg); }
+.counter .counter-value{
+  color: #555;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 20px;
+  margin: 10px 0 20px;
+  display: block;
+  transition: all 0.3s ease 0s;
+}
+.counter:hover .counter-value{ text-shadow: 2px 2px 0 #d1d8e0; 
+margin-top: 15px;}
+.counter h3{
+  font-size: 17px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 15px 0 15px;
+}
+.counter.red{
+  color: #dc393b;
+  border-color: #dc393b;
+}
+.counter.red:after{
+  border-bottom-color: #dc393b;
+  border-left-color: #dc393b;
+}
+.counter.green{
+  color: #08da4e;
+  border-color: #08da4e;
+}
+.counter.green:after{
+  border-bottom-color: #08da4e;
+  border-left-color: #08da4e;
+}
+.counter.orange{
+  color: #f68c09;
+  border-color: #f68c09;
+}
+.counter.orange:after{
+  border-bottom-color: #f68c09;
+  border-left-color: #f68c09;
+}
+@media screen and (max-width:990px){
+  .counter{ margin-bottom: 40px; }
 }
 
 /*--------------------------------------------------------------
