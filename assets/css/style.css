@@ -180,7 +180,7 @@ section {
   position: fixed;
   width: 100%;
   height: 100%;
-  background: #21242d url("../img/preloader.gif") no-repeat center;
+  background: #21242d url('https://cssauthor.com/wp-content/uploads/2018/06/Bouncy-Preloader.gif') no-repeat center;
   z-index: 999;
 }
 /*--------------------------------------------------------------
