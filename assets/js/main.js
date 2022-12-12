@@ -271,6 +271,42 @@
     }
   });
 
+
+  new Swiper('.team-slider', {
+    speed: 400,
+    loop: true,
+    autoplay: {
+      delay: 1500,
+      disableOnInteraction: false
+    },
+ 
+    pagination: {
+      el: '.swiper-pagination',
+      type: 'bullets',
+      clickable: true
+      },
+
+      
+    breakpoints: {
+      320: {
+        slidesPerView: 2,
+        spaceBetween: 40
+      },
+
+      768: {
+        slidesPerView: 3,
+        spaceBetween: 40
+      },
+
+
+      1200: {
+        slidesPerView: 4,
+        spaceBetween: 40
+      }
+    }
+  });
+  
+
   /**
    * Animation on scroll
    */
