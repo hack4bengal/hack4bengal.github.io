@@ -2698,3 +2698,11 @@ section#counts {
 .carousel-item {
   transition: transform 0.5s ease;
 }
+
+.team-swiper .swiper-slide:hover{
+  transform: scale(1.02)
+}
+
+.team-slider{
+  margin-top: 60px;
+}
