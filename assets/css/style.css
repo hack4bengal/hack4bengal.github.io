@@ -885,6 +885,41 @@ section#counts {
   height: 100%;
 }
 
+/* .features .feature-box:hover i {
+  background: #dc393b;
+  color: #fff;
+} */
+
+#red-check:hover {
+  background: #dc393b;
+  color: #fff;
+}
+
+#green-check:hover {
+  background: #15be56;
+  color: #fff;
+}
+
+#blue-check:hover {
+  background: #0e31ae;
+  color: #fff;
+}
+
+#orange-check:hover {
+  background: #ee6c20;
+  color: #fff;
+}
+
+#pink-check:hover {
+  background: #bb0852;
+  color: #fff;
+}
+
+#sky-check:hover {
+  background: #4e7fde;
+  color: #fff;
+}
+
 @media (max-width: 768px) {
   .features {
     padding-left: 20px;
