@@ -189,6 +189,7 @@ section {
 # Header
 --------------------------------------------------------------*/
 .header {
+  background: #fff;
   transition: all 0.5s;
   z-index: 997;
   padding: 20px 0;
